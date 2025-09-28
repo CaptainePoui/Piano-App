@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Le piano du Captaine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="accueil-container">
+    <h1>Le piano du Captaine</h1>
+    <div id="profils" class="profils-liste">
+      <!-- Les boutons profils seront ajoutés ici par JS -->
+      <!-- Exemple statique : -->
+      <!--
+      <button class="profil-btn">Philippe</button>
+      <button class="profil-btn">Rose</button>
+      <button class="profil-btn nouveau-profil-btn" onclick="afficherChampNouveauProfil()">Nouveau profil</button>
+      -->
+    </div>
+    <div id="ajout-profil" class="ajout-profil-cache">
+      <input type="text" id="nouveau-nom-profil" placeholder="Nom du nouveau profil">
+      <button onclick="creerNouveauProfil()">Créer</button>
+    </div>
+    <button id="continuer-btn" class="continuer-btn" disabled>Accéder aux leçons</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
 
