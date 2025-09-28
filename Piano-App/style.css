@@ -1,1 +1,81 @@
 
+body {
+  background: #f6f9fc;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.accueil-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px #0001;
+  padding: 32px 24px 40px 24px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 28px;
+  color: #234;
+  font-size: 2.4em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.profils-liste {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: flex-start;
+  margin-bottom: 18px;
+}
+.profil-btn {
+  min-width: 120px;
+  background: #e2e8f0;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-size: 1.1em;
+  color: #233;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.profil-btn.selected {
+  background: #4f83ff;
+  color: #fff;
+  font-weight: 600;
+}
+.nouveau-profil-btn {
+  background: #23b37e;
+  color: #fff;
+  font-weight: 700;
+}
+.ajout-profil-cache {
+  display: none;
+  margin-bottom: 12px;
+}
+.ajout-profil-visible {
+  display: block;
+  margin-bottom: 12px;
+}
+#nouveau-nom-profil {
+  padding: 8px 14px;
+  font-size: 1em;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  margin-right: 8px;
+}
+.continuer-btn {
+  margin-top: 16px;
+  padding: 12px 36px;
+  font-size: 1.18em;
+  border: none;
+  border-radius: 14px;
+  background: #223a6b;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.continuer-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
